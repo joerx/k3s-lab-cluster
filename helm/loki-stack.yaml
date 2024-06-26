@@ -1,0 +1,12 @@
+loki:
+  enabled: true
+  size: 1Gi
+  persistence:
+    type: pvc
+    enabled: true
+
+promtail:
+  enabled: true
+
+grafana:
+  enabled: false
